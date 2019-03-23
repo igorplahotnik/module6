@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.1px solid red; */
+}
+
+body {
+    padding: 30px 0 0 0;
+}
+
+/* header */
+
+.conteiner {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 130px;
+}
+
+.logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: rgb(149, 225, 211);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    width: 490px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu a {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(149, 225, 211);
+}
+
+.color:hover {
+    color: rgb(243, 129, 129);
+    padding-bottom: 12px;
+    border-bottom: 3px solid rgb(243, 129, 129);
+}
+
+/* main */
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title::before {
+    content: "We work with";
+    display: block;
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 22px;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(243, 129, 129);
+    margin-left: 570px;
+    margin-top: 42px;
+    margin-bottom: 66px;
+}
+
+.service {
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.items {
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item1,
+.service-item2,
+.service-item3 {
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 20%;
+}
+
+.info {
+    width: 80%;
+}
+
+.info h3 {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(64, 64, 64);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.1;
+}
+
+.title2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title2::before {
+    content: "Who we are";
+    display: block;
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 22px;
+}
+
+.title2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ff0000;
+    margin-left: 570px;
+    margin-top: 42px;
+    margin-bottom: 46px;
+}
+
+.textp {
+    width: 942px;
+    margin: auto;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 90px;
+    line-height: 1.6;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+.teams {
+    width: 380px;
+}
+
+.image {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.image1 {
+    width: 380px;
+    height: 470px;
+    background-image: url(../img/man1.png);
+}
+
+.image2 {
+    width: 380px;
+    height: 470px;
+    background-image: url(../img/man2.png);
+}
+
+.image3 {
+    width: 380px;
+    height: 470px;
+    background-image: url(/img/man3.png);
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.position {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.image {
+    transition: all 200ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    width: 224px;
+    height: 56px;
+    display: none;
+    background-color: rgb(252, 227, 138);
+}
+
+.ic {
+    outline: 1px solid rgba(243, 129, 129, 0.384);
+    width: 56px;
+    padding: 15px 20px 15px 23px;
+}
+
+.facebook {
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twiter {
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pin {
+    background-image: url(../img/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.instagram {
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-item1:hover .image1 {
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767),
+        rgba(252, 227, 138, 0.699)),
+        url(../img/man1.png);
+}
+
+.team-item2:hover .image2 {
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767),
+        rgba(252, 227, 138, 0.699)),
+        url(../img/man2.png);
+}
+
+.team-item3:hover .image3 {
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767),
+        rgba(252, 227, 138, 0.699)),
+        url(../img/man3.png);
+}
+
+.teams:hover .inner {
+    display: flex;
+}
+
+.ic:hover {
+    background-color: rgb(79, 228, 198);
+}
+
+.foot {
+    padding: 12px 0 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.textSpan {
+    color: #ff0000;
+}
+
+.email {
+    width: 230px;
+    height: 40px;
+    border: 1px 0 1px 1px solid rgb(231, 231, 231);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+    padding-left: 13px;
+}
+
+.subscribe {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(79, 228, 198);
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: -5px;
+}
