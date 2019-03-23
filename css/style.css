@@ -202,7 +202,7 @@ body {
 .image3 {
     width: 380px;
     height: 470px;
-    background-image: url(/img/man3.png);
+    background-image: url(../img/man3.png);
 }
 
 .name {
