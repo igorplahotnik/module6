@@ -239,7 +239,7 @@ body {
 .ic {
     outline: 1px solid rgba(243, 129, 129, 0.384);
     width: 56px;
-    padding: 15px 20px 15px 23px;
+    padding: 15px 20px 15px 20px;
 }
 
 .facebook {
@@ -315,7 +315,7 @@ body {
 }
 
 .textSpan {
-    color: #ff0000;
+    color: rgb(255, 0, 0);
 }
 
 .email {
